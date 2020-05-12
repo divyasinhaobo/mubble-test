@@ -49,6 +49,8 @@ export interface InputParams {
     isRequired?: boolean;
     isDisabled?: boolean;
     image?: FilterImage;
+    requiredIf?: string;
+    disabledIf?: string;
 }
 export interface MuFomrValidation {
     validation: any[];
